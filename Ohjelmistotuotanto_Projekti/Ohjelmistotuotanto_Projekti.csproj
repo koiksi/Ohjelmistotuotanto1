@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Asiakasrekisteri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asiakasrekisteri.Designer.cs">
+      <DependentUpon>Asiakasrekisteri.cs</DependentUpon>
+    </Compile>
     <Compile Include="LisääMökki.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     <Compile Include="VillageNewbiesOy.Designer.cs">
       <DependentUpon>VillageNewbiesOy.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Asiakasrekisteri.resx">
+      <DependentUpon>Asiakasrekisteri.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LisääMökki.resx">
       <DependentUpon>LisääMökki.cs</DependentUpon>
     </EmbeddedResource>
