@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
@@ -40,7 +41,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -64,6 +64,13 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(329, 209);
             this.panel1.TabIndex = 13;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(116, 167);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(196, 20);
+            this.textBox8.TabIndex = 20;
             // 
             // label9
             // 
@@ -132,9 +139,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(6, 12);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 13);
+            this.label3.Size = new System.Drawing.Size(52, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Palvelu";
+            this.label3.Text = "Toimialue";
             // 
             // label4
             // 
@@ -153,13 +160,6 @@
             this.label5.Size = new System.Drawing.Size(43, 13);
             this.label5.TabIndex = 4;
             this.label5.Text = "Kuvaus";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(116, 167);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(196, 20);
-            this.textBox8.TabIndex = 20;
             // 
             // button1
             // 

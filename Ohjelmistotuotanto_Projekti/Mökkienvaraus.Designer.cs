@@ -60,8 +60,8 @@
             this.checkBox9 = new System.Windows.Forms.CheckBox();
             this.label5 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -386,6 +386,13 @@
             this.panel5.Size = new System.Drawing.Size(169, 100);
             this.panel5.TabIndex = 31;
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(3, 36);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(153, 20);
+            this.textBox2.TabIndex = 1;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -394,13 +401,6 @@
             this.label6.Size = new System.Drawing.Size(53, 13);
             this.label6.TabIndex = 0;
             this.label6.Text = "Max hinta";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(3, 36);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
             // 
             // Mökkienvaraus
             // 
